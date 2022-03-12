@@ -517,7 +517,7 @@ header label{
 
 .footer .box-container .box .info{
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .footer .box-container .box .info i{
