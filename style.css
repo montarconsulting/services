@@ -159,7 +159,7 @@ header label{
   }
   
   .manual-btn{
-    border: 2px solid #2B040C;
+    border: 2px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -221,11 +221,6 @@ header label{
   
   #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #fff;
-  }
-  @keyframes rotate{
-    100%{
-      transform: rotate(360deg);
-    }
   }
   
   .about {
