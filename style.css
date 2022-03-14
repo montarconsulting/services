@@ -124,6 +124,14 @@ header label{
     position: relative;
     overflow: hidden !important;
   }
+.home {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
   
   .home .banner{
     color:#fff;
