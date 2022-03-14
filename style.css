@@ -159,7 +159,7 @@ header label{
   }
   
   .manual-btn{
-    border: 2px solid #fff;
+    border: 2px solid #2b040c;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -171,7 +171,7 @@ header label{
   }
   
   .manual-btn:hover{
-    background: #2b040c;
+    background: #fff;
   }
   
   #radio1:checked ~ .first{
@@ -179,16 +179,14 @@ header label{
   }
   
   #radio2:checked ~ .first{
-    margin-left: -20%;
+    margin-left: -30%;
   }
   
   #radio3:checked ~ .first{
-    margin-left: -40%;
-  }
-  
-  #radio4:checked ~ .first{
     margin-left: -60%;
   }
+  
+
   
   /*css for automatic navigation*/
   
