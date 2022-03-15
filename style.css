@@ -115,7 +115,7 @@ header label{
     min-height: 100vh;
     width: 100vw;
     background: url(/asset/images/home.png);
-    background: #f9f9f9;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
