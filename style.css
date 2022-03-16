@@ -108,10 +108,48 @@ header label{
     opacity: 0;
 }
 
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(..images/h--over.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .image img{
+    width:40vw;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+.home .content h3{
+    font-size: 5.5rem;
+    color:#2b040c;
+    text-transform: uppercase;
+}
+
+.home .content h3 span{
+    color:var(--pink);
+    text-transform: uppercase;
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    color:#666;
+    padding:1rem 0;
+}
 
 
-
-  .home{
+ /* .home{
     min-height: 100vh;
     width: 100vw;
     background: url(/asset/images/home.png);
@@ -208,7 +246,7 @@ header label{
     100%{
       transform: rotate(360deg);
     }
-  }
+  } */
   
   .about {
     background: #fff;
