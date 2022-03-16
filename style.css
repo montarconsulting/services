@@ -117,10 +117,10 @@ header label{
     background-position: center;
 }
 
-/*.home .image img{
+.home .image img{
     width:40vw;
-    animation: float 3s linear infinite;
-} */
+    /*animation: float 3s linear infinite;*/
+}
 
 @keyframes float{
     0%, 100%{
