@@ -112,7 +112,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #2b040c;
     background-size: cover;
     background-position: center;
 }
@@ -133,7 +133,7 @@ header label{
 
 .home .content h3{
     font-size: 5.5rem;
-    color:#2b040c;
+    color:#fff;
     text-transform: uppercase;
 }
 
